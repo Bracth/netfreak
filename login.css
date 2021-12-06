@@ -4,25 +4,43 @@
   height: 10vh;
 }
 
+.logo {
+  font-size: 1.8em;
+  color: blue;
+}
+
 /* form */
 
 .main {
+  display: flex;
   flex-direction: column;
   align-items: center;
-  height: 60vh;
+  height: 70vh;
+  width: 80vw;
+  max-width: 400px;
+  border: solid blue 1px;
+}
+
+.main h1 {
+  font-size: 1.5em;
 }
 
 .form {
+  display: flex;
   flex-direction: column;
   align-items: center;
   height: 35%;
   justify-content: space-between;
+  margin-bottom: 2rem;
 }
 
-input {
-  width: 15rem;
-}
-
+input,
 button {
-  width: 15.55rem;
+  width: 60vw;
+  max-width: 300px;
+  margin: 10px 0px 10px 0px;
+}
+
+a {
+  text-decoration: none;
 }
