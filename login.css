@@ -2,6 +2,8 @@
 
 .header {
   height: 10vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .logo {
@@ -18,11 +20,14 @@
   height: 70vh;
   width: 80vw;
   max-width: 400px;
-  border: solid blue 1px;
+  margin: 20px 0 20px 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 5%;
 }
 
 .main h1 {
   font-size: 1.5em;
+  color: white;
 }
 
 .form {
@@ -42,5 +47,15 @@ button {
 }
 
 a {
+  color: rgb(188, 65, 245);
   text-decoration: none;
+}
+
+/* footer */
+
+.footer {
+  color: blue;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100vw;
+  height: 15.4vh;
 }
