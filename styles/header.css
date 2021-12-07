@@ -1,0 +1,10 @@
+.header {
+  height: 10vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.logo {
+  font-size: 1.8em;
+  color: blue;
+}
