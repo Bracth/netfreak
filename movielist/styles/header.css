@@ -1,0 +1,81 @@
+.header {
+  position: fixed;
+  top: 0px;
+  display: flex;
+  height: 10vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.6);
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 1.8em;
+  color: blue;
+}
+
+.burger {
+  color: blue;
+  font-size: 3rem;
+  visibility: hidden;
+}
+
+.burger::before {
+  content: "\2630";
+  position: absolute;
+  visibility: visible;
+  right: 10px;
+}
+
+/* navbar */
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 70vh;
+  width: 80%;
+  position: absolute;
+  right: 0px;
+  top: 88px;
+  background-color: black;
+  visibility: hidden;
+}
+
+.navbar input {
+  width: 10rem;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: white;
+}
+
+.burger:checked + .navbar {
+  visibility: visible;
+}
+
+/* desktop */
+
+@media (min-width: 768px) {
+  .burger {
+    display: none;
+  }
+
+  .navbar {
+    position: static;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 10vh;
+    background-color: transparent;
+    visibility: visible;
+  }
+
+  .nav-item {
+    font-size: 1rem;
+  }
+
+  .nav-item:hover {
+    color: blueviolet;
+  }
+}
