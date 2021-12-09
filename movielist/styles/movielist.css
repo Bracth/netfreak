@@ -3,7 +3,7 @@
 }
 
 .section {
-  color: blue;
+  color: whitesmoke;
   font-size: 2rem;
 }
 
@@ -16,19 +16,19 @@
   cursor: pointer;
 }
 .star:before {
-  content: "\2605";
+  content: "\2606";
   position: absolute;
   visibility: visible;
 }
 .star:checked:before {
-  content: "\2606";
+  content: "\2605";
   position: absolute;
 }
 
 /* movie list */
 
 .movie-list {
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   background-color: rgba(0, 0, 0, 0.6);

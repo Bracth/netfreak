@@ -1,0 +1,22 @@
+.separator {
+  margin-top: 5.5rem;
+}
+
+.video-detail {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  font-size: 0.8rem;
+}
+
+video {
+  width: 100%;
+  margin: auto;
+}
+
+.section {
+  color: whitesmoke;
+  font-size: 2rem;
+}
