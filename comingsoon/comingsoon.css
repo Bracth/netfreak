@@ -1,3 +1,12 @@
 .separator {
   margin-top: 5.1rem;
 }
+
+.coming {
+  color: whitesmoke;
+  text-align: center;
+}
+
+.coming img {
+  border-radius: 15%;
+}
