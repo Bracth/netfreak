@@ -10,6 +10,7 @@
   margin: 20px 0 20px 0;
   background-color: rgba(0, 0, 0, 0.6);
   border-radius: 5%;
+  justify-content: space-around;
 }
 
 .main h1 {
@@ -28,15 +29,14 @@
 
 input,
 button {
-  width: 60vw;
+  width: 60%;
   max-width: 300px;
   margin: 10px 0px 10px 0px;
   border-radius: 5%;
 }
 
-a {
+main a {
+  padding: 0.5rem;
   color: rgb(188, 65, 245);
   text-decoration: none;
 }
-
-/* footer */
