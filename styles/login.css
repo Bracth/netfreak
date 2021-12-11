@@ -37,6 +37,10 @@ button {
 
 main a {
   padding: 0.5rem;
-  color: rgb(188, 65, 245);
+  color: white;
   text-decoration: none;
+}
+
+main a:hover {
+  color: blueviolet;
 }

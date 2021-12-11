@@ -17,6 +17,10 @@
   color: whitesmoke;
 }
 
+.footer a:hover h1 {
+  color: blueviolet;
+}
+
 @media (max-width: 375px) {
   .footer a h1 {
     font-size: 1.2rem;

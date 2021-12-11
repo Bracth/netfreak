@@ -2,13 +2,15 @@
   position: fixed;
   top: 0px;
   display: flex;
-  height: 10vh;
+  height: 10%;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.6);
   justify-content: space-between;
+  z-index: 999;
 }
 
 .logo {
+  margin-top: 1.4rem;
   padding: 0.5rem;
   font-size: 1.8em;
   color: whitesmoke;
@@ -69,6 +71,7 @@
     position: static;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-top: 0.4rem;
     height: 10vh;
     background-color: transparent;
     visibility: visible;
@@ -77,5 +80,17 @@
 
   .nav-item:hover {
     color: blueviolet;
+  }
+}
+
+@media (max-height: 690px) {
+  .header {
+    height: 15%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 850px) {
+  .nav-item {
+    font-size: 1.4rem;
   }
 }
